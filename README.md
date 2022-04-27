@@ -4,11 +4,9 @@ This is a pytorch lightning implementation of **SC-Depth** (V1, V2) for **self-s
 
 In the V1 ([IJCV 2021](https://jwbian.net/Papers/SC_Depth_IJCV_21.pdf) & [NeurIPS 2019](https://papers.nips.cc/paper/2019/file/6364d3f0f495b6ab9dcf8d3b5c6e0b01-Paper.pdf)), we propose (i) **geometry consistency loss** for scale-consistent depth prediction over video and (ii) **self-discovered mask** for detecting and removing dynamic regions during training towards higher accuracy. We also validate the predicted depth in the Visual SLAM scenario.
 
-[<img src="https://jwbian.net/wp-content/uploads/2020/06/77CXZX@H37PIWDBX0R7T.png" width="400">](https://www.youtube.com/watch?v=OkfK3wmMnpo)
 
 In the V2 ([TPMAI 2022](https://arxiv.org/abs/2006.02708v2)), we propose auto-recitify network (**ARN**) to remove relative image rotation in hand-held camera captured videos, e.g., some indoor datasets. We show that the proposed ARN, which is self-supervised trained in an end-to-end fashion, greatly eases the training and significantly boosts the performance.
 
-<img src="https://jwbian.net/wp-content/uploads/2020/06/vis_depth.png" width="400">
 
 ## Install
 ```

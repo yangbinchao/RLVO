@@ -1,0 +1,37 @@
+
+# txt files
+# *.txt
+*.csv
+
+# json files
+*.json
+*.odgt
+
+# models
+ckpts
+lightning_logs
+*.pth
+*.pt
+*.ckpt
+*.node03
+
+# python cache
+*__pycache__*
+
+# images
+*.jpg
+*.jpge
+*.png
+*.xml
+
+# zip
+*.zip
+*.tar
+
+# thirdparty
+thirdparty
+
+# test_dir
+demo
+
+
