@@ -1,4 +1,4 @@
-# SC_Depth_pl:
+# Real-time Lighting Visual Odometry:
 
 This is a pytorch lightning implementation of **SC-Depth** (V1, V2) for **self-supervised learning of monocular depth from video**.
 
