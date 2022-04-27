@@ -11,7 +11,7 @@ In the V2 ([TPMAI 2022](https://arxiv.org/abs/2006.02708v2)), we propose auto-re
 ## Install
 ```
 conda create -n sc_depth_env python=3.6
-conda activate sc_depth_env
+conda activate pytorch16
 conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch
 pip install -r requirements.txt
 ```
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 We preprocess all existing video datasets to the following general video format for training and testing:
 
-    Dataset
+    KITTI Dataset
       -Training
         --Scene0000
           ---*.jpg (list of images)
@@ -33,6 +33,12 @@ We preprocess all existing video datasets to the following general video format 
       -Testing
         --color (containg testing images)
         --depth (containg ground truth depths)
+        
+    KITTI Odometry
+      -sequences
+        --09
+          ---image_2
+            ----*.png
 You can convert it by yourself (on your own video data) or download our pre-processed standard datasets:
 
 [**[kitti_raw]**](https://1drv.ms/u/s!AiV6XqkxJHE2mUax6F2N-rjAs43R?e=gwn6Zi) [**[nyu]**](https://1drv.ms/u/s!AiV6XqkxJHE2mUUA5hElvhZXnqOn?e=51SIE1)
