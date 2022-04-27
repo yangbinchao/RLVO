@@ -89,7 +89,7 @@ If you run the "scripts/run_test_depth.sh" with the pretrained model (fix the pa
 
 ## Remark
 
-[**notebook**](https://note.youdao.com/noteshare?id=258a3ad8869ba7433fd261cdd1b72672)
+The experimental process was recorded [**notebook**](https://note.youdao.com/noteshare?id=258a3ad8869ba7433fd261cdd1b72672)
 
 ## References
 
