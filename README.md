@@ -33,7 +33,7 @@ We preprocess all existing video datasets to the following general video format 
       -Testing
         --color (containg testing images)
         --depth (containg ground truth depths)
-        
+
     KITTI Odometry
       -sequences
         --09
@@ -86,6 +86,10 @@ If you run the "scripts/run_test_depth.sh" with the pretrained model (fix the pa
 |----------|---------|--------|-------|-------|-----------|-------|-------|-------|
 | resnet18 | 0.142   | 0.112  | 0.061 | 0.554 | 0.186     | 0.808 | 0.951 | 0.987 |
 
+
+## Remark
+
+[**notebook**](https://note.youdao.com/noteshare?id=258a3ad8869ba7433fd261cdd1b72672)
 
 ## References
 
